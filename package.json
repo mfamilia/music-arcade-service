@@ -8,8 +8,11 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
+    "0http": "^2.3.0",
+    "find-my-way": "^3.0.1",
     "gamepad": "https://github.com/creationix/node-gamepad",
-    "rpi-gpio": "^2.1.5"
+    "rpi-gpio": "^2.1.5",
+    "spotify-web-api-node": "^4.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",

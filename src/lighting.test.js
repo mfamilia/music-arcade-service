@@ -37,7 +37,7 @@ describe("Lighting", () => {
       promiseResolve = resolve;
     });
 
-    Lighting.constantFlash(Buttons.lightable, promise, 10).then(() => {
+    Lighting.constantFlash(Buttons.lightable, promise, 100).then(() => {
       expect(gpiop.write.mock.calls).toMatchInlineSnapshot(`
         Array [
           Array [

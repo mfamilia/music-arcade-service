@@ -1,0 +1,19 @@
+[Unit]
+Description=MusicArcade Service
+Documentation=https://github.com/mfamilia/music-arcade-service
+After=network.target
+
+[Service]
+Environment=CLIENT_ID=
+Environment=CLIENT_SECRET=
+Environment=REDIRECT_URI=
+Environment=PROTOCAL=https
+Environment=REFRESH_TOKEN_FILE=
+Environment=PORT=
+Type=simple
+User=
+ExecStart=/usr/bin/node index.js
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
