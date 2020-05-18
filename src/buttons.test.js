@@ -4,40 +4,48 @@ describe("Buttons", () => {
   it("provides buttons", () => {
     expect(Buttons.red).toMatchInlineSnapshot(`
       Object {
-        "code": 0,
+        "code": 8,
+        "contextUri": "spotify:playlist:5mYzVylCdZeyR23XccmAqc",
         "name": "red",
         "pin": 37,
+        "playlist": "json-classical",
       }
     `);
 
     expect(Buttons.blue).toMatchInlineSnapshot(`
       Object {
-        "code": 1,
+        "code": 9,
+        "contextUri": "spotify:playlist:0mGWeb9ak4wdYMySSBI3wW",
         "name": "blue",
-        "pin": 33,
+        "pin": 35,
+        "playlist": "json-kids",
       }
     `);
 
     expect(Buttons.white).toMatchInlineSnapshot(`
       Object {
-        "code": 4,
+        "code": 11,
         "name": "white",
       }
     `);
 
     expect(Buttons.green).toMatchInlineSnapshot(`
       Object {
-        "code": 2,
+        "code": 10,
+        "contextUri": "spotify:playlist:7yn5RpHqewAxLZlmIM9K9z",
         "name": "green",
-        "pin": 35,
+        "pin": 31,
+        "playlist": "json-spanish",
       }
     `);
 
     expect(Buttons.yellow).toMatchInlineSnapshot(`
       Object {
-        "code": 3,
+        "code": 7,
+        "contextUri": "spotify:playlist:6ZMJ49EhgyHc3NugRttU5h",
         "name": "yellow",
-        "pin": 31,
+        "pin": 33,
+        "playlist": "json-big-band",
       }
     `);
   });

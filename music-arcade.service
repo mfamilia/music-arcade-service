@@ -10,6 +10,7 @@ Environment=REDIRECT_URI=
 Environment=PROTOCAL=https
 Environment=REFRESH_TOKEN_FILE=
 Environment=PORT=
+Environment=DEVICE_ID=
 Type=simple
 User=
 ExecStart=/usr/bin/node index.js

@@ -29,9 +29,11 @@ describe("ButtonPad", () => {
         Array [
           "down",
           Object {
-            "code": 0,
+            "code": 8,
+            "contextUri": "spotify:playlist:5mYzVylCdZeyR23XccmAqc",
             "name": "red",
             "pin": 37,
+            "playlist": "json-classical",
           },
         ],
       ]

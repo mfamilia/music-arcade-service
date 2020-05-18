@@ -14,7 +14,7 @@ const router = createRouter({
 })
 
 router.on('GET', '/spotify', (req, res) => {
-  const scope = 'user-read-private user-read-email'
+  const scope = config.spotifyScope
   const query = querystring.stringify({
     response_type: 'code',
     client_id: config.clientId,

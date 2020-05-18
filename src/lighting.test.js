@@ -15,15 +15,15 @@ describe("Lighting", () => {
           "out",
         ],
         Array [
-          33,
-          "out",
-        ],
-        Array [
           35,
           "out",
         ],
         Array [
           31,
+          "out",
+        ],
+        Array [
+          33,
           "out",
         ],
       ]
@@ -49,14 +49,6 @@ describe("Lighting", () => {
             false,
           ],
           Array [
-            33,
-            true,
-          ],
-          Array [
-            33,
-            false,
-          ],
-          Array [
             35,
             true,
           ],
@@ -70,6 +62,14 @@ describe("Lighting", () => {
           ],
           Array [
             31,
+            false,
+          ],
+          Array [
+            33,
+            true,
+          ],
+          Array [
+            33,
             false,
           ],
         ]
