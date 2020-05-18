@@ -8,7 +8,8 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "gamepad": "https://github.com/creationix/node-gamepad"
+    "gamepad": "https://github.com/creationix/node-gamepad",
+    "rpi-gpio": "^2.1.5"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",

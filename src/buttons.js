@@ -1,7 +1,7 @@
-const red = { code: 0, name: 'red' }
-const blue = { code: 1, name: 'blue' }
-const green = { code: 2, name: 'green' }
-const yellow = { code: 3, name: 'yellow' }
+const red = { code: 0, name: 'red', pin: 37 }
+const blue = { code: 1, name: 'blue', pin: 33 }
+const green = { code: 2, name: 'green', pin: 35 }
+const yellow = { code: 3, name: 'yellow', pin: 31 }
 const white = { code: 4, name: 'white' }
 
 const lookupMap = {
@@ -12,6 +12,16 @@ const lookupMap = {
   [white.code]: white
 }
 
+const all = [
+  red,
+  blue,
+  green,
+  yellow,
+  white
+]
+
+const lightable = all.filter(({ pin }) => pin)
+
 const fromCode = (code) => lookupMap[code]
 
 module.exports = {
@@ -20,5 +30,7 @@ module.exports = {
   green,
   yellow,
   white,
-  fromCode
+  fromCode,
+  all,
+  lightable
 }
