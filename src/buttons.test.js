@@ -61,10 +61,10 @@ describe("Buttons", () => {
   it("provides list of lightable buttons", () => {
     expect(Buttons.lightable.map((b) => b.name)).toMatchInlineSnapshot(`
       Array [
+        "yellow",
         "red",
         "blue",
         "green",
-        "yellow",
       ]
     `);
   });

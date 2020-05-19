@@ -11,6 +11,10 @@ describe("Lighting", () => {
     expect(gpiop.setup.mock.calls).toMatchInlineSnapshot(`
       Array [
         Array [
+          33,
+          "out",
+        ],
+        Array [
           37,
           "out",
         ],
@@ -20,10 +24,6 @@ describe("Lighting", () => {
         ],
         Array [
           31,
-          "out",
-        ],
-        Array [
-          33,
           "out",
         ],
       ]
@@ -41,6 +41,14 @@ describe("Lighting", () => {
       expect(gpiop.write.mock.calls).toMatchInlineSnapshot(`
         Array [
           Array [
+            33,
+            true,
+          ],
+          Array [
+            33,
+            false,
+          ],
+          Array [
             37,
             true,
           ],
@@ -62,14 +70,6 @@ describe("Lighting", () => {
           ],
           Array [
             31,
-            false,
-          ],
-          Array [
-            33,
-            true,
-          ],
-          Array [
-            33,
             false,
           ],
         ]

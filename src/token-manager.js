@@ -79,5 +79,6 @@ const init = async () => {
 module.exports = {
   fetchRefreshToken,
   init,
-  spotifyCredentials
+  spotifyCredentials,
+  readRefreshToken
 }

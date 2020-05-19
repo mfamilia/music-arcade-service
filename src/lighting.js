@@ -26,7 +26,7 @@ const flash = async (buttons, interval) => {
   }
 }
 
-const clockwiseLoop = async(buttons, promise, interval = 1000) => {
+const clockwiseLoop = async (buttons, promise, interval = 1000) => {
   let continueCycling = true
 
   promise.then(() => continueCycling = false)

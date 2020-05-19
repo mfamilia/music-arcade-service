@@ -13,10 +13,10 @@ const lookupMap = {
 }
 
 const all = [
+  yellow,
   red,
   blue,
   green,
-  yellow,
   white
 ]
 
